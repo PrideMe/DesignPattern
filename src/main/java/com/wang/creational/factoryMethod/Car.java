@@ -1,4 +1,4 @@
-package com.wang.creational.factory;
+package com.wang.creational.factoryMethod;
 
 /**
  * @author wang.

@@ -1,4 +1,4 @@
-package com.wang.creational.factory;
+package com.wang.creational.factoryMethod;
 
 /**
  * @author wang.
@@ -17,4 +17,13 @@ public class Driver {
             throw new Exception();
         }
     }
+
+    public static Car getAudi() {
+        return new Audi();
+    }
+
+    public static Car getBenz() {
+        return new Benz();
+    }
+
 }

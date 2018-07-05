@@ -1,4 +1,4 @@
-package com.wang.creational.factory;
+package com.wang.creational.factoryMethod;
 
 /**
  * @author wang.
@@ -22,12 +22,15 @@ public class Test {
 //        fruit.plant();
 //        fruit.grow();
 //        fruit.harvest();
-        Car car = null;
-        try {
-            car = Driver.getCar("BMW");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
+//        Car car = null;
+//        try {
+//            car = Driver.getCar("BMW");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        car.driver();
+        Car car = Driver.getBenz();
         car.driver();
     }
 }
