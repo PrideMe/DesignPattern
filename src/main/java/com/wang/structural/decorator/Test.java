@@ -7,8 +7,11 @@ package com.wang.structural.decorator;
  */
 public class Test {
     public static void main(String[] args) {
-        Component component = new ConcreateComponent();
-        component = new ConcreateDecorator(component);
-        component.operation();
+//        Component component = new ConcreateComponent();
+//        component = new ConcreateDecorator(component);
+//        component.operation();
+        Car car = new Benz();
+        car = new ConcreteCarDecorator(car);
+        car.show();
     }
 }
